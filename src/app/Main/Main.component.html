@@ -1,0 +1,17 @@
+<body>
+  <div class='container'>
+    <div class='Pictures' *ngFor='let item of Data'>
+      <img [src]="item.imagesrc" width='150' height='150'>
+      <h1>{{item.name}}</h1>
+      <p>{{item.textinfo}}</p>
+    </div>
+  </div>
+    <div class='main'>
+      <h2>Sprite Fact</h2>
+      <p>Sprite is a lime-lemon soda from the Coca-Cola Company, 
+        which also produces Coke. 
+        Sprite's nutrition facts: About 100 grams of Sprite contain 10 
+        grams of carbohydrates, 9 mg of sodium, and not much else.
+      </p>
+    </div>
+</body>
